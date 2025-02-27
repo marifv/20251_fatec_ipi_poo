@@ -4,6 +4,8 @@ def menu():
     print("2 - Subtração")
     print("3 - Multiplicação")
     print("4 - Divisão")
+    print("0 - Sair do programa")
+    print("---------------------------------------")
     
 
 def soma(a, b):
@@ -45,5 +47,12 @@ elif opcao == 4:
     num2 = int(input("Digite o segundo número: "))
     resultado = divisao(num1, num2)
     print("Resultado da divisão: ", resultado)
+
+elif opcao == 0:
+        print("Obrigado por usar nosso Menu-Calculadora!")
+         
+
+else:
+        print("Esse número não existe, use um número de 0 a 4 conforme a opção desejada")
 
 
